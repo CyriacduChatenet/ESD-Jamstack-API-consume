@@ -1,0 +1,12 @@
+.meal-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ingredient-list {
+    display: flex;
+}
+
+.article {
+    padding: 2rem 1rem;
+}

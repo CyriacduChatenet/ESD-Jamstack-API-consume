@@ -24,6 +24,9 @@ interface IMeal {
     <li>
       <a href='../category/index.html'>Categories</a>
   </li>
+  <li>
+  <a href='../search/index.html'>Search</a>
+</li>
   </ul>
   `;
   

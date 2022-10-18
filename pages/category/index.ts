@@ -47,6 +47,9 @@ const recipes : IMealRecipe[] = [];
     <li>
       <a href='./index.html'>Categories</a>
   </li>
+  <li>
+  <a href='../search/index.html'>Meals</a>
+</li>
 </ul>
 <h1>Categories</h1>
 <ul id="categories-list"></ul>

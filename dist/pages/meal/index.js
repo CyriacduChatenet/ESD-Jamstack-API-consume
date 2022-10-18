@@ -28,6 +28,9 @@ const startHTML = document.querySelector("#root");
             <li>
               <a href='../category/index.html'>Categories</a>
           </li>
+          <li>
+          <a href='../search/index.html'>Categories</a>
+      </li>
         </ul>
         <h1>${meal.strMeal}</h1>
         <p>category : ${meal.strCategory}</p>

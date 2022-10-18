@@ -27,6 +27,9 @@ navbar.innerHTML = `
   <li>
   <a href='./pages/category/index.html'>Categories</a>
 </li>
+<li>
+<a href='./pages/search/index.html'>Search</a>
+</li>
 </ul>
 `;
 

@@ -20,6 +20,9 @@ navbar.innerHTML = `
   <li>
     <a href='./pages/meals/index.html'>Meals</a>
   </li>
+  <li>
+  <a href='./pages/category/index.html'>Categories</a>
+</li>
 </ul>
 `;
 root.append(navbar);
@@ -43,7 +46,7 @@ root.append(articleList);
             const article = document.createElement("article");
             article.classList.add('article');
             article.innerHTML = `
-    <a href=${`./meal/index.html?title=${meal.strMeal}?ingredients=${ingredients}`}>
+    <a href=${`./pages/meal/index.html?id=${meal.idMeal}?category=${meal.strCategory}?area=${meal.strArea}`}>
       <img src=${meal.strMealThumb} />
       <h2>${meal.strMeal}</h2>
       <ul class="ingredient-list">

@@ -20,6 +20,9 @@ nav.innerHTML = `
     <li>
       <a href='./index.html'>Meals</a>
     </li>
+    <li>
+      <a href='../category/index.html'>Categories</a>
+  </li>
   </ul>
   `;
 HTMLStart.append(nav);

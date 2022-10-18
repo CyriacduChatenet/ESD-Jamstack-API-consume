@@ -22,6 +22,9 @@ interface IMeal {
     <li>
       <a href='./index.html'>Meals</a>
     </li>
+    <li>
+      <a href='../category/index.html'>Categories</a>
+  </li>
   </ul>
   `;
   

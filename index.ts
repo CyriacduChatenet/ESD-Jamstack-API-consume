@@ -1,4 +1,3 @@
-
 interface IMeal {
   strIngredient1: string; 
   strIngredient2: string; 
@@ -34,6 +33,8 @@ navbar.innerHTML = `
 root.append(navbar);
 root.append(articleList);
 
+const searchBar = document.querySelector('#searchbar') as HTMLInputElement;
+
 (async function () {
   const datas : IMeal[] = [];
 
@@ -66,5 +67,5 @@ root.append(articleList);
     `;
 
     articleList.appendChild(article);
-  });
+  })
 })();

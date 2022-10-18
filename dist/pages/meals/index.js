@@ -43,7 +43,7 @@ HTMLStart.append(articlesList);
             const article = document.createElement("article");
             article.classList.add('article');
             article.innerHTML = `
-      <a href=${`./meal/index.html?title=${meal.strMeal}?ingredients=${ingredients}`}>
+      <a href=${`../meal/index.html?title=${meal.strMeal}?ingredients=${ingredients}`}>
         <img src=${meal.strMealThumb} />
         <h2>${meal.strMeal}</h2>
         <ul class="ingredient-list">

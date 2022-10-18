@@ -27,6 +27,7 @@ navbar.innerHTML = `
 `;
 root.append(navbar);
 root.append(articleList);
+const searchBar = document.querySelector('#searchbar');
 (function () {
     return __awaiter(this, void 0, void 0, function* () {
         const datas = [];
